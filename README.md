@@ -39,7 +39,7 @@ The system uses the **Book-Crossing dataset**, which contains:
 - `users.csv`: Contains user data such as user ID, location, and age.
 - `ratings.csv`: Contains user ratings of books.
 
-This dataset is sourced from a publicly available dataset, which can be accessed at the following [link](http://www2.informatik.uni-freiburg.de/~cziegler/BX/).
+This dataset is sourced from a publicly available dataset, which can be accessed at the following [Link](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
 
 ## Techniques Used
 
@@ -67,10 +67,12 @@ Follow these instructions to set up and run the book recommendation system on yo
 
 ### Clone this repository:
 
-bash
-git clone https://github.com/your-username/book-recommender.git
+git clone [https://github.com/your-username/book-recommender.git](https://github.com/jarpit743/Book-Recommendation-System)
 cd book-recommender
-
+Install the required Python libraries:
+pip install -r requirements.txt
+Open the Jupyter notebook to run the recommendation system:
+jupyter notebook BRS(Pop+Colla).ipynb
 
 ## Usage
 
