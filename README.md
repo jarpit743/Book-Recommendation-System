@@ -5,7 +5,6 @@ This project presents a **Book Recommendation System** that leverages two key ap
 ## Table of Contents
 
 - [Overview](#overview)
-- [Project Structure](#project-structure)
 - [Dataset](#dataset)
 - [Techniques Used](#techniques-used)
   - [Popularity-Based Filtering](#popularity-based-filtering)
@@ -25,19 +24,6 @@ The system implements two types of recommendation engines:
 - **Popularity-Based Filtering**: Suggests books that are highly rated by many users.
 - **Collaborative Filtering**: Provides personalized recommendations by identifying similarities between users' preferences.
 
-## Project Structure
-
-The project files are structured as follows:
-
-bash
-├── data/
-│   ├── books.csv          # Contains book metadata
-│   ├── ratings.csv        # Contains user ratings for books
-│   └── users.csv          # Contains user demographic information
-├── BRS(Pop+Colla).ipynb   # Jupyter notebook with the entire code for the recommender system
-├── README.md              # Project README file
-├── requirements.txt       # List of Python dependencies
-└── images/                # Folder for storing images or plots generated during analysis
 
 ## Dataset
 
@@ -74,6 +60,17 @@ Collaborative filtering generates personalized recommendations based on user-ite
 1. Create a user-item rating matrix.
 2. Use collaborative filtering (e.g., **K-Nearest Neighbors** or **Matrix Factorization**) to predict ratings for books the user hasn’t interacted with yet.
 3. Recommend books with the highest predicted ratings.
+
+## Installation
+
+Follow these instructions to set up and run the book recommendation system on your local machine:
+
+### Clone this repository:
+
+bash
+git clone https://github.com/your-username/book-recommender.git
+cd book-recommender
+
 
 ## Usage
 
