@@ -32,7 +32,7 @@ The system implements two types of recommendation engines:
 
 The project files are structured as follows:
 
-```bash
+bash
 ├── data/
 │   ├── books.csv          # Contains book metadata
 │   ├── ratings.csv        # Contains user ratings for books
