@@ -1,5 +1,3 @@
-[Datasets Link](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
-
 # Book Recommendation System
 
 ## Overview
@@ -8,6 +6,7 @@ This project is a **Book Recommendation System** that recommends books based on 
 - **Collaborative Filtering Recommender**: Suggests books based on similar user preferences.
 
 ## Dataset
+- [Datasets Link](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
 - **Books Dataset**: Contains information about books such as title, author, publication year, and cover images.
 - **Users Dataset**: Contains user demographic information like location and age.
 - **Ratings Dataset**: Contains user ratings of books on a scale of 0 to 10.
