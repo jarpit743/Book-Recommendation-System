@@ -65,9 +65,9 @@ Collaborative filtering generates personalized recommendations based on user-ite
 
 Follow these instructions to set up and run the book recommendation system on your local machine:
 
-### Clone this repository:
+Clone this repository:
 
-git clone [https://github.com/your-username/book-recommender.git](https://github.com/jarpit743/Book-Recommendation-System)
+git clone [[https://github.com/your-username/book-recommender.git](https://github.com/jarpit743/Book-Recommendation-System)](https://github.com/jarpit743/Book-Recommendation-System)
 cd book-recommender
 Install the required Python libraries:
 pip install -r requirements.txt
