@@ -16,9 +16,6 @@ This project presents a **Book Recommendation System** that leverages two key ap
 - [Results](#results)
 - [Challenges](#challenges)
 - [Future Work](#future-work)
-- [Acknowledgments](#acknowledgments)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -45,7 +42,7 @@ bash
 ## Dataset
 
 The system uses the **Book-Crossing dataset**, which contains:
-
+- [Datasets Link](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
 - **Books**: Titles, authors, year of publication, and other metadata.
 - **Users**: Demographics of the users including location and age.
 - **Ratings**: Users' ratings of books on a scale from 0 to 10.
